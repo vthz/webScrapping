@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="topSpace">
+    <h1>Web Scrapper</h1>
+</div>
+
+<head>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/scrapper.css')}}">
+    <meta charset="UTF-8">
+    <title>Web Scrapper</title>
+
+</head>
+<body>
+
+
+<div class="row1">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Youtube</h2>
+    <p>PewDiePie subscriber count:{{t3}}</p>
+
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Amazon:Acer Aspire 7</h2>
+    <p>Price:{{t1}}</p>
+  </div>
+</div>
+
+<div class="row2">
+  <div class="column" style="background-color:#ccc;">
+    <h2>Weather</h2>
+    <p>Today's Temperature:{{t2}}</p>
+  </div>
+</div>
+
+</body>
+</html>
